@@ -1,0 +1,16 @@
+///usr/bin/env ts-node
+{
+    "extends": "@tsconfig/node21/tsconfig.json",
+    "compilerOptions": {
+        "strict": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "noEmitOnError": true,
+        "resolveJsonModule": true,
+        "allowArbitraryExtensions": true,
+        "noImplicitOverride": true,
+        "lib": [
+            "ESNext"
+        ]
+    }
+}
